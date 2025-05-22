@@ -9,14 +9,23 @@
   align-items: center;
 }
 
-.contentSumary div {
+.contentSumary .div {
   width: 80%;
   padding: 1em;
-  margin: 0.5em 0px;
+  margin: .7em;
   text-align: center;
   border-radius: 0.6em;
   display: flex;
   justify-content: space-between;
+}
+
+.div div {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  padding-right: 0.6em;
 }
 
 .reaccion {
